@@ -19,7 +19,7 @@ export default function AccountSettings() {
               <img 
                 src={user.avatar} 
                 alt="Profile" 
-                className="w-16 h-16 rounded-full object-cover border-2 border-popx-primary"
+                className="w-16 h-16 rounded-full object-cover border-2 border-primary"
               />
               {/* Edit icon overlay (optional) */}
               <button className="absolute bottom-0 right-0 bg-primary text-white rounded-full p-1">
@@ -39,7 +39,7 @@ export default function AccountSettings() {
           <div className='border border-dashed text-gray-300'>
           </div>
           <div className="mt-6 text-center">
-            <Link to="/" className="text-gray-500 hover:text-popx-primary">Back to Welcome</Link>
+            <Link to="/" className="text-gray-500 hover:text-primary">Back to Welcome</Link>
           </div>
 
         </div>

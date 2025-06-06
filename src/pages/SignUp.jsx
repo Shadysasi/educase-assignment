@@ -36,7 +36,7 @@ export default function Signup() {
             name="fullName"
             type="text"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-popx-primary"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             value={formData.fullName}
             onChange={handleChange}
           />
@@ -48,7 +48,7 @@ export default function Signup() {
             name="phoneNumber"
             type="tel"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-popx-primary"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             value={formData.phoneNumber}
             onChange={handleChange}
           />
@@ -60,7 +60,7 @@ export default function Signup() {
             name="email"
             type="email"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-popx-primary"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             value={formData.email}
             onChange={handleChange}
           />
@@ -72,7 +72,7 @@ export default function Signup() {
             name="password"
             type="password"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-popx-primary"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             value={formData.password}
             onChange={handleChange}
           />
@@ -84,7 +84,7 @@ export default function Signup() {
             name="companyName"
             type="text"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-popx-primary"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             value={formData.companyName}
             onChange={handleChange}
           />
@@ -97,7 +97,7 @@ export default function Signup() {
               <input
                 name="isAgency"
                 type="radio"
-                className="text-popx-primary focus:ring-popx-primary"
+                className="text-primary focus:ring-primary"
                 checked={formData.isAgency === true}
                 onChange={() => setFormData({...formData, isAgency: true})}
               />
@@ -107,7 +107,7 @@ export default function Signup() {
               <input
                 name="isAgency"
                 type="radio"
-                className="text-popx-primary focus:ring-popx-primary"
+                className="text-primary focus:ring-primary"
                 checked={formData.isAgency === false}
                 onChange={() => setFormData({...formData, isAgency: false})}
               />
